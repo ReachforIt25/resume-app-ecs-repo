@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "project",
-            "image": "571600845324.dkr.ecr.us-east-1.amazonaws.com/ecr-project-repo",
+            "image": "service-first",
             "cpu": 256,
             "memory": 512,
             "portMappings": [
