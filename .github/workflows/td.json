@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "project",
-            "image": "service-first",
+            "image": "571600845324.dkr.ecr.us-east-1.amazonaws.com/ecr-project-repo",
             "cpu": 256,
             "memory": 512,
             "portMappings": [
@@ -24,6 +24,7 @@
     "taskRoleArn": "arn:aws:iam::571600845324:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::571600845324:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
+    
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -47,7 +48,7 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "registeredAt": "2025-05-30T20:01:40.457Z",
+    "registeredAt": "2025-06-08T06:07:14.453Z",
     "registeredBy": "arn:aws:iam::571600845324:user/terraform",
     "tags": []
 }
